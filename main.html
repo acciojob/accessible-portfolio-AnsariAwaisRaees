@@ -8,6 +8,40 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<header role="banner">
+        <h1>My Accessible Portfolio</h1>
+        <nav role="navigation">
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">My Projects</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main role="main">
+        <section id="about">
+            <h2>About Me</h2>
+            <img src="profile.jpg" alt="A photo of me" role="img" aria-label="A photo of me">
+            <p>I am a web developer passionate about accessibility and inclusivity.</p>
+        </section>
+        
+        <section id="projects">
+            <h2>My Projects</h2>
+            <ul role="list">
+                <li role="listitem">Project 1: Accessible Website</li>
+                <li role="listitem">Project 2: Inclusive Web App</li>
+                <li role="listitem">Project 3: ARIA Role Implementation</li>
+            </ul>
+        </section>
+    </main>
+    
+    <footer role="contentinfo">
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>You can reach out to me at <a href="mailto:contact@example.com">contact@example.com</a>.</p>
+        </section>
+    </footer>
     <script type="text/javascript" src="./script.js">
 </script>
 
