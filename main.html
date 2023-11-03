@@ -8,40 +8,21 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<header role="banner">
-        <h1>My Accessible Portfolio</h1>
-        <nav role="navigation">
-            <ul>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#projects">My Projects</a></li>
-                <li><a href="#contact">Contact Me</a></li>
-            </ul>
-        </nav>
-    </header>
-    
-    <main role="main">
-        <section id="about">
-            <h2>About Me</h2>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVTtlOwG_6l93Lo3NcGZcQpGx4LXNwa3lF5A&usqp=CAU" alt="A photo of me" role="img" aria-label="A photo of me">
-            <p>I am a web developer passionate about accessibility and inclusivity.</p>
-        </section>
-        
-        <section id="projects">
-            <h2>My Projects</h2>
-            <ul role="list">
-                <li role="listitem">Project 1: Accessible Website</li>
-                <li role="listitem">Project 2: Inclusive Web App</li>
-                <li role="listitem">Project 3: ARIA Role Implementation</li>
-            </ul>
-        </section>
-    </main>
-    
-    <footer role="contentinfo">
-        <section id="contact">
-            <h2>Contact Me</h2>
-            <p>You can reach out to me at <a href="mailto:contact@example.com">contact@example.com</a>.</p>
-        </section>
-    </footer>
+	<img role="img" src="data:image/jpeg;base64,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" alt="myphoto" height="200">
+	 <h1 role="heading">My Accessible Portfolio</h1>
+	 <nav role="navigation">
+        <ul role="list">
+            <li role="listitem"><a href="#about">About</a></li>
+            <li role="listitem"><a href="#projects">Projects</a></li>
+            <li role="listitem"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <p>This is a brief description of my portfolio. It showcases my work and projects.</p>
+	<ul role="list">
+        <li role="listitem">Project 1</li>
+        <li role="listitem">Project 2</li>
+        <li role="listitem">Project 3</li>
+    </ul>
     <script type="text/javascript" src="./script.js">
 </script>
 
